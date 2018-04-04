@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome to Html </title>
+</head>
+<body>
+<script type="text/javascript">
+var myvar=setInterval(function () {myTimer()},1000);
+var x=0;
+function myTimer()
+{
+var d=new Date();
+document.getElementById("re").innerHTML=d.toLocaleTimeString();
+document.getElementById("reee").innerHTML=x;
+x++;
+
+}
+</script>
+<h1 id="name">Hi From Java Script</h1>
+<p id=re></p>
+<p id=reee></p>
+</body>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome to Html </title>
+</head>
+<body>
+<script type="text/javascript">
+var w=0;
+function sum()
+{
+var x1=parseInt(document.getElementById("n1").value);
+var x2=parseInt(document.getElementById("n2").value);
+w = x1 + x2 + w ;
+document.getElementById("res").innerHTML=w;
+}
+</script>
+<h1 id="name">Hi From Java Script</h1>
+firstNum=<input id="n1" type="text" name="num1"> 
+<br></br>
+secondNum=<input id="n2" type="text" name="num2">
+<br></br>
+<button type="button" onclick="sum()">Sum now</button>
+<p id="res">the result</p> 
+</body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Welcome to Html </title>
+</head>
+<body>
+<script type="text/javascript">
+
+try{
+
+function print(){
+var x=document.getElementById("t1").value;
+alert(x);
+}
+}
+catch(err){alert(err.message);}
+finally
+{
+document.write("Done");
+}
+
+</script>
+<h1 id="name">Hi From Java Script</h1>
+<input id="t1" type="text" name="test">
+<button type="button" onclick="print()" >click here </button>
+</body>
